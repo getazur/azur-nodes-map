@@ -22,6 +22,6 @@ and run
 Open localhost:9090.
 
 It's caching nodes' ips every 24 hrs into `.cache` folder.
-
-![Map](https://cdn.qwertycoin.org/images/other/qwcnodesogimage.png)
+ 
+![Mapa](https://i.imgur.com/zkSClar.png)
 		
