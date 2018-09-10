@@ -1,9 +1,9 @@
-# Qwertycoin nodes map
+# CROAT nodes map
 
-Visualizes Qwertycoin nodes on the map.
+Visualizes CROAT nodes on the map.
 
 ## What you need
-You need a running Qwertycoind on the same system on Port 8197 or change line 8
+You need a running CROAT on the same system on Port 8197 or change line 8
 in location.js
 
 ## How to run
