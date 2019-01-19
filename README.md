@@ -6,16 +6,8 @@
 git clone https://github.com/getazur/azur-nodes-map azurmap && cd azurmap && chmod +x build.sh
 ./build.sh
 ```
-
-## RUN
-
-```
-./run.sh
-```
-
-## VIST YOUR IP / LOCALHOST / DOMAIN NAME
 		
-# ALLOW SSL HTTPS
+## ALLOW SSL HTTPS
 
 ```
 sudo add-apt-repository ppa:certbot/certbot -y
@@ -32,4 +24,10 @@ nano default
 rm /etc/nginx/sites-available/default
 mv default /etc/nginx/sites-available/
 service nginx restart
+```
+
+## RUN
+
+```
+./run.sh
 ```
