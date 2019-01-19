@@ -12,6 +12,6 @@ app.get('/', async (req, res) => {
     res.render('home', { locations: await locations.getCachedLocations() });
 });
 
-app.listen(80);
+app.listen(8000);
 
 console.log('listening on port 8000');
