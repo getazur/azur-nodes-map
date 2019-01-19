@@ -12,7 +12,7 @@ git clone https://github.com/getazur/azur-nodes-map azurmap && cd azurmap && chm
 ```
 sudo add-apt-repository ppa:certbot/certbot -y
 sudo apt-get update
-sduo apt-get install nginx python-certbot-nginx -y
+sudo apt-get install nginx python-certbot-nginx -y
 ```
 ### Remplace node.getazur.org by your domain
 ```
