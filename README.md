@@ -3,6 +3,7 @@
 ## BUILD
 
 ```
+git clone https://github.com/getazur/azur-nodes-map azurmap && cd azurmap && chmod +x build.sh
 ./build.sh
 ```
 
