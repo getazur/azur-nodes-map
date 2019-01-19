@@ -20,7 +20,6 @@ sudo certbot --nginx -d node.getazur.org
 ```
 ### Remplace node.getazur.org by your domain on default file
 ```
-nano default
 rm /etc/nginx/sites-available/default
 mv default /etc/nginx/sites-available/
 service nginx restart
