@@ -27,6 +27,7 @@ server {
 server {
 
         server_name explorer.getazur.org;
+root /var/www/html;
 
        location / {
                 
