@@ -31,7 +31,7 @@ server {
         root /var/www/html;
         index index.html index.htm index.nginx-debian.html;
 
-        server_name explorer.getazur.org;
+        server_name default_server;
 
         location / {
                 try_files $uri $uri/ =404;
