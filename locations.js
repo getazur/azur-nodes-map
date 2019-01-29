@@ -5,7 +5,7 @@ const cache = new CachemanFile({tmpDir: '.cache', ttl: 24*3600,});
 
 const getPeers = async () => {
     try {
-        const res = await axios.get('https://supernode.getazur.org/peers');
+        const res = await axios.get('https://api.getazur.org/peers');
         if (!res.data.peers) throw new Error('Missing peers.');
         console.log(`${res.data.peers.length} peers found`);
         return res.data.peers;
